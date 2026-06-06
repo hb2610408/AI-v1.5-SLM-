@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "AI 로컬 방문 기록 삭제기 (v1.5 내장형 SLM 모델)",
+  "version": "1.5",
+  "description": "Ollama 없이 ONNX Runtime Web 기술을 활용하여 브라우저 내에서 독립적으로 작동하는 AI 구조입니다.",
+  "permissions": ["history", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
